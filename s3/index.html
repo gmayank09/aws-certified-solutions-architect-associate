@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Static Website Success!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #232f3e 0%, #1a1a1a 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 500px;
+        }
+        h1 {
+            color: #ff9900; /* AWS Orange */
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        p {
+            color: #e0e0e0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .status-badge {
+            background-color: #46b754;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello from Amazon S3!</h1>
+        <p>Your static website has been successfully hosted and is publicly accessible to the world.</p>
+        <div class="status-badge">🚀 Deployment Live</div>
+    </div>
+</body>
+</html>
